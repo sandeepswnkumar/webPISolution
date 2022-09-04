@@ -1019,6 +1019,23 @@ h6 {
   margin: 0 2px;
 }
 
+.teamBox{
+  height: 300px;
+}
+.teamBox .member{
+  height: 100%;
+}
+.teamBox .member img{
+  height: 82.5%;
+  width: 100%;
+}
+
+@media (max-width:991px) {
+  .teamBox{
+    height: 400px;
+  }
+}
+
 /* Clients Section
 --------------------------------*/
 
