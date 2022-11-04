@@ -771,22 +771,37 @@ h6 {
   margin-right: 0;
 }
 
+.portfolio-container{
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
 #portfolio .portfolio-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  
 }
 
 #portfolio .portfolio-item .portfolio-wrap {
   overflow: hidden;
   position: relative;
-  margin: 0;
-  height: 100vh;
+  margin: 20px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
+}
+#portfolio .portfolio-item .portfolio-wrap img {
+  /* opacity: 0.4; */
+  transition: 0.3s;
+  width: 200px;
+  /* height: 100px; */
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info {
@@ -881,9 +896,6 @@ h6 {
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #282646;
-}
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
